@@ -1,0 +1,56 @@
+Body{
+    margin: 30;
+    padding: 30;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+
+header{
+      
+    height: 10vh;
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .titulo{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+header .menu{
+    position: fixed;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: black;
+}
+ 
+header h1{
+    color: white;
+}
+
+
+header .menu li{
+    display: inline-block;
+}
+
+header .menu a{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200as;
+}
+ header .menu a:hover{
+    color: #444;
+    background-color: white;
+}
+ 
+
